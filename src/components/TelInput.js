@@ -18,7 +18,7 @@ class TelInput extends Component {
       <input type="tel" autoComplete="off"
         className={this.props.className}
         disabled={this.props.disabled ? 'disabled' : false}
-        readOnly={this.props.readonly ? 'readonly' : false}
+        readonly={this.props.readonly ? 'readonly' : false}
         name={this.props.fieldName}
         id={this.props.fieldId}
         value={this.props.value}
